@@ -1,43 +1,32 @@
 *{
-    /* box-sizing: border-box; */
     padding: 0px;
     margin: 0px;
 }
 #heading{
     background-color: rgb(51, 166, 211);
-    /* border: 3px solid red; */
     font-size: 60px;
     padding: 20px;
     color: white;
 }
 
 .navbar{
-    /* border:2px solid rgb(231, 14, 14); */
     background-color: rgba(10, 1, 1, 0.815);
-    /* padding: 0px; */
     font-size: medium;
-    height: 35px;
-}
-.navbar ul{
-    /* overflow: auto; */
-    /* border: 2px solid navy; */   
+    height: 33px;
 }
 .navbar ul li{
     float: left;
     list-style: none; 
-    /* border: 2px solid white;    */
     margin-top: 5px;
 }
 .navbar img{
     display: inline-block;
-    /* border: 2px solid red; */
     float: right;
     margin-right: 40px;
-    margin-top: 3px;
+    margin-top: 4px;
 }
 .navbar li a{
     font-size: 20px;
-    /* font-weight: bold; */
     color:white;
     padding: 22px;
     text-decoration: none;
@@ -52,11 +41,12 @@
 }
 
 .container h3{
-    margin-left: 5px;
+    margin-left: 8px;
+    margin-top:8px;
+    font-size: 20px;
 }
 
 .container p{
-    /* border:1px solid rgb(63, 63, 65);  */
     margin-left: 15px;
     margin-top: 13px;
     font-size: medium;
@@ -65,12 +55,10 @@
 
 .welcome{
     margin-top: 40px;
-    /* border: 3px solid yellow; */
     margin-left: 50px;
     width: 1100px;
     font-size: 18px;
 }
 .welcome h3{
-    /* border: 3px solid red; */
     margin-bottom: 15px;
 }
